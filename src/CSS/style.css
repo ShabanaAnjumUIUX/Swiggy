@@ -1,0 +1,16 @@
+.navbar
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: red;
+    padding: 1em;
+}
+li
+{
+    color: white;
+    font-size: 1.2em;
+    font-family: poppins,sans-serif;
+}
+
+

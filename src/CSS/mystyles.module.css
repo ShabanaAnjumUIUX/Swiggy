@@ -1,0 +1,11 @@
+.paragraph
+{
+    border:5px solid red;
+}
+
+.paragraph2
+{
+    background-color: rgb(13, 202, 110);
+    color:white;
+    font-size: 2em;
+}

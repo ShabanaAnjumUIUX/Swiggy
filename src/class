@@ -1,0 +1,223 @@
+Project Structure
+====================
+
+node_modules : packages
+
+public : index.html
+
+src: important folder where it contains all the components
+
+
+
+
+components
+==============
+a piece of reusable code 
+u can create it once use it multiple times
+
+
+file : extension .js
+src: filename should always start with capital letter
+filenames are user-defined
+
+
+components are two types
+
+
+1. class component
+
+
+class Componentname extends Component{
+    render()
+    {
+        return(<>
+        
+        
+        </>)
+    }
+}
+
+
+
+2. functional component
+
+js functions
+
+function Componentname(){
+    return(<>
+    
+    
+    
+    
+    </>)
+}
+
+
+
+steps:
+=======
+1. create the file with an extension .js
+2. filename starts with always capital
+3. choose the component from class/functional
+4. export the component
+
+extensions:
+==============
+Simple React Snippets
+ES7+ React/Redux/React-Native snippets
+ES7 React/Redux/GraphQL/React-Native snippets
+
+
+
+css styling
+=============
+
+1. external stylesheet
+2. inline stylesheet
+html
+=====
+<tag style="propertyname:value;propertyname:value;"></tag>
+
+
+reactjs
+========
+
+<tag style={{propertyName:"value",}}></tag>
+
+3. js object
+
+before the return statement you have to declare the js object
+
+
+syntax
+======
+
+const Objectname={
+    propertyName:"value",
+    propertyName:"value",
+    propertyName:"value",
+    propertyName:"value",
+}
+Objectname === userdefined
+
+4. module.css
+
+external file the extension is .module.css
+
+5. styled-components
+
+
+https://styled-components.com/
+
+
+https://www.npmjs.com/
+
+
+
+
+
+
+
+img
+====
+
+
+<img src="assets/media/images/imagename.extension"/>
+
+
+libraries
+=============
+
+bootstrap
+
+
+
+
+An Application : https://www.ugaoo.com/
+
+
+extension : Auto Import - ES6, TS, JSX, TSX
+
+react-router-dom
+======================
+
+
+https://reactrouter.com/
+
+
+BrowserRouter : we have to give the whole access of the app
+
+index.js 
+Wrap the component with the BrowserRouter
+
+Routes : 
+Route
+Link
+NavLink
+useParams()
+useNavigate()
+
+
+Version Control
+================
+git & github
+
+
+git is a tool/software
+
+photos or files in your mobile
+local system
+control the project 
+track all of the versions which you have edited
+
+Meer Shabana Anjum --- resume copy
+Meer Shabana Final Copy
+Meer Shabana Final Copy - 2
+Meer Shabana Final Copy - 3
+
+
+
+
+
+github : cloud based website 
+google drive
+
+
+share the projects
+contribute to the projects/collaborate with the developers
+download the project
+
+
+
+git bash : software
+
+
+
+installation of git
+=======================
+
+https://www.atlassian.com/git/tutorials/install-git
+
+
+google drive : folders
+github : repositories
+
+npm run build
+
+step 1 : git init === initializing the git in your project
+step 2 : git status
+
+Props & States
+====================
+
+
+
+Hooks
+===========
+useState()
+useEffect()
+useReducer()
+useContext()
+useMemo()
+useRef()
+useCallBack()
