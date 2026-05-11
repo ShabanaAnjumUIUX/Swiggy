@@ -1,8 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
-import Banner from "./Components/Banner";
-import Carousel from './Components/Carousel';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
