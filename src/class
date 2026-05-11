@@ -214,6 +214,14 @@ step 3 : git add .
 git add <filename>
 git add Banner.js
 
+
+update the project
+================
+
+git commit -m "comment"
+git push origin Main
+
+
 Props & States
 ====================
 

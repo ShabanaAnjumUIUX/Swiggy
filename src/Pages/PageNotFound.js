@@ -7,7 +7,7 @@ function PageNotFound() {
   return (
     <>
       <div className="container text-center">
-        <img
+        <img alt=""
           className="img-fluid w-25"
           src="https://www.pickuplimes.com/static/images/errors/LIME_FALLING.c5b66eececf4.jpg"
         />
