@@ -224,8 +224,58 @@ git push origin Main
 
 Props & States
 ====================
+props : shortcut name of the property
+
+pass the data
+communicators in between the components
+immutable : u cant modify it
 
 
+
+syntax
+======
+prop == user-defined
+<tag virat={}></tag>
+
+
+number/boolean/string/function/json file/variable
+
+syntax
+=====
+
+
+condition?ifpart : elsepart;
+
+10<=100 ? document.write(x): document.write("it is not less than 100");
+
+if(10<=100)
+{
+    document.write(x);
+}
+else
+{
+    document.write("it is not less than 100")
+}
+
+
+syntax
+=====
+2 ways to receive the props
+
+1. props
+2. object
+
+States
+======
+purely executed in the class component
+
+
+this.state={
+    key:value,
+    key:value,
+}
+
+setState(); u can update the value
 
 Hooks
 ===========

@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-function PageNotFound() {
+function PageNotFound({prop1,prop2}) {
   let urldata = useParams();
   console.log(urldata);
   return (
@@ -18,6 +18,9 @@ function PageNotFound() {
 
            404 PAGE NOT FOUND
         </span>
+      </div>
+      <div className="container bg-danger">
+      {prop1} {prop2}
       </div>
     </>
   );
