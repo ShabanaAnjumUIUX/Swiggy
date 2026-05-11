@@ -191,7 +191,9 @@ download the project
 
 git bash : software
 
-
+vercel
+========
+https://vercel.com/
 
 installation of git
 =======================
@@ -206,6 +208,11 @@ npm run build
 
 step 1 : git init === initializing the git in your project
 step 2 : git status
+step 3 : git add .
+. indicates all the files together
+
+git add <filename>
+git add Banner.js
 
 Props & States
 ====================

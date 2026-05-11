@@ -4,7 +4,7 @@ import img2 from "../assets/images/2.jpg";
 import styled from "styled-components";
 
 import Button from "react-bootstrap/Button"
-import { FaClipboard, FaUserTie } from "react-icons/fa";
+import {  FaUserTie } from "react-icons/fa";
 import { FaClipboardUser } from "react-icons/fa6";
 
 function Banner() {
