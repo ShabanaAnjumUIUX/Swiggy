@@ -35,18 +35,18 @@ function Banner() {
     {/* <i class="fa-solid fa-house" style={{color:"red",fontSize:"45px",}}></i> */}
 
       <h1 style={style2}>Welcome to the banner section </h1>
-      <img src={img1} style={{width:"250px"}}/>
-      <img src={img2} style={{width:"250px"}}/>
+      <img alt="" src={img1} style={{width:"250px"}}/>
+      <img alt="" src={img2} style={{width:"250px"}}/>
 
 
 
 
-    <img src={require("../assets/images/4.jpg")} className="img-fluid w-50 rounded-circle border border-primary"/>
+    <img alt="" src={require("../assets/images/4.jpg")} className="img-fluid w-50 rounded-circle border border-primary"/>
     <Image src={require("../assets/images/5.jpg")}/>
 
 
 
-      <img
+      <img alt=""
         src="https://images.pexels.com/photos/19047806/pexels-photo-19047806.jpeg"
         style={{ width: "450px", height: "450px", borderRadius: "50%" }}
       />
